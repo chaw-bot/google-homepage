@@ -2,34 +2,56 @@
 <html>
     <head>
        <tile>google_homepage</tile>
-    </head> 
-      
+    </head>
+
     <body> 
+        <header>
+            <div>
+                <a href="https://about.google/?utm_source=google-ZM&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+                <a href="#">Store</a>
+                <a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a>
+                <a href="https://www.google.co.zm/imghp?hl=en&ogbl">Images</a>
+            </div>
 
-        //The google logo
-        <img src="https://seomofo.com/orm/new-google-logo-high-quality-png-image-with-transparent-background/" alt="Google logo">
-        
-        //Search text and button
-        <link rel="stylesheet" href="">
-        <form class="example" action="">
-           <input type="text" placeholder="Search.." name="search">
-           <button type="submit"></button>
-        </form>
+            <div>
+                <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">
+                   <button type="button">Sign in</button>
+                </a>
+            </div>
+        </header>
 
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Images</a></li>
-        </ul> 
-    </body>
+    <main>
+        <div>
+           <img src="https://seomofo.com/orm/new-google-logo-high-quality-png-image-with-transparent-background/" alt="Google logo">
+        </div>
 
+        <div>
+           <form action="search" >
+              <input type="text" name="search_query">
+           </form>
+           <button type="submit" form="search">Search</button>
+        </div>
+
+        <div>
+            <a href="#" target="_blank">
+                <button type="button">Google Search</button>
+            </a>
+        </div>
+
+        <div>
+            <a href="#" target="_blank">
+                <button type="button">I'm Feeling Lucky!</button>
+            </a>
+        </div>
+    </main>
+    
     <footer>
-        <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Settings</a></li>
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms</a></li>
-          </ul> 
+        <div>
+           <a href="https://web.archive.org/web/20191130221802if_/https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+           <a href="https://web.archive.org/web/20191201001453if_/https://www.google.com/preferences?hl=en">Settings</a>
+           <a href="https://web.archive.org/web/20191201001452/https://policies.google.com/privacy?fg=1">Privacy</a>
+           <a href="https://web.archive.org/web/20191201001502/https://policies.google.com/terms?fg=1">Terms</a>
+        </div>
     </footer>
+    </body>
 </html>
