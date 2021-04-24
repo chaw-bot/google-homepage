@@ -1,0 +1,31 @@
+#topIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#signIn {
+    display:flex;
+   justify-content: right;
+}
+
+#logo {
+    display:flex;
+    justify-content: center;
+    
+}
+
+#search {
+
+}
+
+#searchButton {
+
+}
+
+#lucky {
+
+}
+
+#foot {
+
+}
